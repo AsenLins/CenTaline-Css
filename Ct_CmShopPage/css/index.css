@@ -1,0 +1,11 @@
+.ct-topbar .default {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+}
+.ct-topbar .default .left {
+  width: 100%;
+}
+.ct-topbar .default .right {
+  right: 20%;
+}
