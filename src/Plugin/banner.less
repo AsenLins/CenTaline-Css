@@ -1,5 +1,50 @@
+@import "../baseVar.less";
+@bgColor:@ct-base-BgColor;
+@ct-titleHeight:45px;
 .ct-banner{
+  position: relative;
+  top: 0px;
+  background-color: @bgColor;
+
+  text-align: center;
+  a{
+    border: 0px;
+  }
   img{
       max-width: 100%;
   }
+
+  .title{
+    position: relative;
+    height: @ct-titleHeight;
+    top: -@ct-titleHeight;
+    padding-bottom: -@ct-titleHeight;
+    color: white;
+    line-height: @ct-titleHeight;
+
+    .title-text{
+      position: relative;
+      top: 0px;
+      text-align: left;
+      text-indent: 1em;
+      z-index: @ct-Floor-normal;
+      font-size: 1.2em;
+    }
+    .title-bg
+    {
+      background-color:black;
+      opacity: 0.6;
+      position: absolute;
+      bottom: 0px;
+      height: 100%;
+      width: 100%;
+      z-index: @ct-Floor-low;
+
+    }
+
+  }
+
+
+
+
 }

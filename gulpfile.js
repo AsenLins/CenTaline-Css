@@ -17,5 +17,6 @@ gulp.task("Ct_CmShopPage",function(){
 
 
 gulp.task("WatchLess",function(){
-  gulp.watch("/*.less",['PluginLess','Ct_CmShopPage'])
+  gulp.watch("src/**/*.less",['PluginLess','Ct_CmShopPage']);
+  gulp.watch("Ct_CmShopPage/src/*.less",['PluginLess','Ct_CmShopPage']);
 });

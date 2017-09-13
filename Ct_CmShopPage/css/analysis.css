@@ -2,6 +2,42 @@
 /*footer容器的高度*/
 /*菜单宽度*/
 /*项高度*/
+.ct-footer .footer-text {
+  height: 8.5%;
+  color: #999999;
+  font-size: 0.7em;
+  width: 97%;
+  letter-spacing: 0em;
+  text-align: left;
+  display: table-cell;
+  text-indent: 0.8em;
+  display: list-item;
+  text-align: center;
+  padding-right: 3%;
+  padding-top: 8%;
+}
+.ct-footer-bootom {
+  margin-top: 30%;
+}
+.ct-footer-bootom .footer-text {
+  height: 8.5%;
+  color: #999999;
+  font-size: 0.7em;
+  width: 97%;
+  letter-spacing: 0em;
+  text-align: left;
+  display: table-cell;
+  text-indent: 0.8em;
+  display: list-item;
+  text-align: center;
+  padding-right: 3%;
+  padding-top: 8%;
+}
+.bottom {
+  position: fixed;
+  bottom: 0px;
+  background-color: white;
+}
 .ct-banner {
   position: relative;
   top: 0px;

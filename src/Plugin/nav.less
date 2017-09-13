@@ -1,0 +1,51 @@
+@import "../baseVar.less";
+@ctnr-Width:@ct-navRightWidth;
+@ctnr-ItemHeight:3em;
+@ctnr-ItemlinkColor:#5b5b5b;
+.ct-nav{
+
+
+}
+
+
+.ct-nav-right{
+  background-color: #e6e6e6;
+  height: 100%;
+  width: @ctnr-Width;
+  position:fixed;
+  right: 0px;
+  top: 0px;
+  z-index: @ct-Floor-max;
+
+  .nav-item{
+    height:@ctnr-ItemHeight;
+    background-color: yellow;
+    width: 100%;
+
+  }
+
+  ul{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0px;
+    list-style-type: none;
+  }
+  li{
+    height: @ctnr-ItemHeight;
+    font-size: 1.1em;
+    border-bottom: 1px solid #cacaca;
+    line-height: @ctnr-ItemHeight;
+    padding-left:1.7em;
+    color: @ctnr-ItemlinkColor;
+
+    a{
+      text-decoration: none;
+      color:@ctnr-ItemlinkColor;
+    }
+  }
+
+  .select{
+    color: #e55d5f;
+  }
+
+}

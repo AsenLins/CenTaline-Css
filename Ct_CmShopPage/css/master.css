@@ -2,6 +2,18 @@
 /*footer容器的高度*/
 /*菜单宽度*/
 /*项高度*/
+.ct-container {
+  margin-top: 80px;
+  clear: both;
+}
+.ct-content {
+  padding: 0.8em;
+  background-color: white;
+}
+.ct-content p {
+  text-indent: 1em;
+  color: #8b8b8b;
+}
 .ct-topbar {
   position: fixed;
   top: 0px;
@@ -77,4 +89,72 @@
 }
 .ct-topbar .logo-left img {
   max-height: 35px;
+}
+body {
+  font-size: 0.8em;
+  font-family: 微软雅黑;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f6f6f6;
+}
+.ct-nav-right {
+  background-color: #e6e6e6;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 903;
+}
+.ct-nav-right .nav-item {
+  height: 3em;
+  background-color: yellow;
+  width: 100%;
+}
+.ct-nav-right ul {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0px;
+  list-style-type: none;
+}
+.ct-nav-right li {
+  height: 3em;
+  font-size: 1.1em;
+  border-bottom: 1px solid #cacaca;
+  line-height: 3em;
+  padding-left: 1.7em;
+  color: #5b5b5b;
+}
+.ct-nav-right li a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+.ct-nav-right .select {
+  color: #e55d5f;
+}
+.ct-mask {
+  position: fixed;
+  top: 0px;
+  z-index: 902;
+  background-color: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.ct-nav-search {
+  margin-top: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.ct-nav-search [ct-type=search] {
+  background-color: #e6e6e6;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  max-width: 85%;
+  height: 1.4em;
+  background-image: url("../img/ct-search.png");
+  background-repeat: no-repeat;
+  background-position: 95% 4px;
+  background-size: 13px;
+  padding-right: 20px;
 }

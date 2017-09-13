@@ -1,22 +1,68 @@
+@import "../baseVar.less";
+@ct-tb-height:@ct-topbarHeight;
 .ct-topbar {
 
-  .default{
+  position: fixed;
+  top: 0px;
+  height: @ct-tb-height;
+  width:100%;
+  z-index:@ct-Floor-high;
+  background-color: white;
+  box-shadow: 0 1px 10px #ccc;
 
-      position: fixed;
-      top: 0px;
-      height: 50px;
+  >div{
+    width:20%;
+    height:@ct-tb-height;
+    text-align:center;
+  }
 
-      .left{
-        width:100%;
-      }
+  /*左右按钮元素*/
+  .topbar{
+    position:absolute;
+    top: 0px;
+    z-index: 999;
+    line-height: @ct-tb-height;
+    vertical-align:middle;
 
-      .right{
-        right: 20%;
-      }
+    img{
+      max-height: 20px;
+    }
 
-      .logo{
+  }
 
-      }
+  .topbar-left{
+    .topbar;
+    left: 0px;
+  }
+
+  .topbar-right{
+    .topbar;
+    right:5px;
+    text-align: right;
+    img{
+      margin-right: 5px;
+    }
+  }
+
+  /*Logo元素*/
+
+  .logo{
+    display: table-cell;
+    vertical-align:middle;
+    img{
+      max-height: 35px;
+    }
+  }
+
+  .logo-default{
+    .logo;
+    text-align: center;
+  }
+
+  .logo-left{
+    .logo;
+    text-align:left;
+    padding-left: 0.8em;
   }
 
 }

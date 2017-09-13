@@ -1,8 +1,3 @@
-.ct-menu {
-  position: fixed;
-  top: 0px;
-  height: 50px;
-}
-.ct-menu .left {
-  float: left;
+.ct-nav .right {
+  width: 200px;
 }

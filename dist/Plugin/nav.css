@@ -1,0 +1,39 @@
+/*topbar容器的基础高度*/
+/*footer容器的高度*/
+/*菜单宽度*/
+/*项高度*/
+.ct-nav-right {
+  background-color: #e6e6e6;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 903;
+}
+.ct-nav-right .nav-item {
+  height: 3em;
+  background-color: yellow;
+  width: 100%;
+}
+.ct-nav-right ul {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0px;
+  list-style-type: none;
+}
+.ct-nav-right li {
+  height: 3em;
+  font-size: 1.1em;
+  border-bottom: 1px solid #cacaca;
+  line-height: 3em;
+  padding-left: 1.7em;
+  color: #5b5b5b;
+}
+.ct-nav-right li a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+.ct-nav-right .select {
+  color: #e55d5f;
+}

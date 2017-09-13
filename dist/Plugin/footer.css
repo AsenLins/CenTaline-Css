@@ -2,43 +2,6 @@
 /*footer容器的高度*/
 /*菜单宽度*/
 /*项高度*/
-.ct-banner {
-  position: relative;
-  top: 0px;
-  background-color: white;
-  text-align: center;
-}
-.ct-banner a {
-  border: 0px;
-}
-.ct-banner img {
-  max-width: 100%;
-}
-.ct-banner .title {
-  position: relative;
-  height: 45px;
-  top: -45px;
-  padding-bottom: -45px;
-  color: white;
-  line-height: 45px;
-}
-.ct-banner .title .title-text {
-  position: relative;
-  top: 0px;
-  text-align: left;
-  text-indent: 1em;
-  z-index: 901;
-  font-size: 1.2em;
-}
-.ct-banner .title .title-bg {
-  background-color: black;
-  opacity: 0.6;
-  position: absolute;
-  bottom: 0px;
-  height: 100%;
-  width: 100%;
-  z-index: 900;
-}
 .ct-footer .footer-text {
   height: 8.5%;
   color: #999999;

@@ -1,0 +1,17 @@
+.ct-nav-search {
+  margin-top: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.ct-nav-search [ct-type=search] {
+  background-color: #e6e6e6;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  max-width: 85%;
+  height: 1.4em;
+  background-image: url("../img/ct-search.png");
+  background-repeat: no-repeat;
+  background-position: 95% 4px;
+  background-size: 13px;
+  padding-right: 20px;
+}

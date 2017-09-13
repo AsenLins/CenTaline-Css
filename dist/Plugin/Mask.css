@@ -1,0 +1,13 @@
+/*topbar容器的基础高度*/
+/*footer容器的高度*/
+/*菜单宽度*/
+/*项高度*/
+.ct-mask {
+  position: fixed;
+  top: 0px;
+  z-index: 902;
+  background-color: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
