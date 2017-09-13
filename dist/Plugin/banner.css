@@ -15,12 +15,13 @@
   max-width: 100%;
 }
 .ct-banner .title {
-  position: relative;
+  position: absolute;
   height: 45px;
-  top: -45px;
   padding-bottom: -45px;
   color: white;
   line-height: 45px;
+  bottom: 0px;
+  width: 100%;
 }
 .ct-banner .title .title-text {
   position: relative;

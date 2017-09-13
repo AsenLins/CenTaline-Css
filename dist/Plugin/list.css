@@ -1,0 +1,46 @@
+.ct-newlist {
+  /*
+  :first-child{
+    width: 40%;
+    float: left;
+
+  }
+  */
+}
+.ct-newlist .ct-newitem {
+  position: relative;
+  top: 0px;
+  height: auto;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 1px 1px #eeeeee;
+  margin-bottom: 12px;
+  display: block;
+  color: black;
+}
+.ct-newlist .new-img {
+  width: 40%;
+  float: left;
+}
+.ct-newlist .new-img img {
+  max-width: 100%;
+  min-height: 110px;
+}
+.ct-newlist .new-content {
+  width: 54%;
+  float: left;
+  padding-left: 4%;
+  padding-right: :2%;
+  font-size: 0.8em;
+}
+.ct-newlist .new-content :first-child {
+  margin-top: 10%;
+  font-weight: bold;
+}
+.ct-newlist .new-content :last-child {
+  margin-top: 3%;
+}
+.ct-newitem:after {
+  clear: both;
+  display: block;
+  content: "";
+}

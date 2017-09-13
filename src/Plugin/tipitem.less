@@ -1,3 +1,32 @@
-.tipitem{
-  
+.ct-tipitem{
+   position: relative;
+   font-size: 1.6em;
+   overflow:hidden;
+   width: 100%;
+
+   margin-bottom: 10px;
+
+   lable{
+     width: auto;
+     display:inline-block;
+     color: #b90000;
+     height:34px;
+     /*margin-top: 10px;*/
+     border-bottom:2px solid #b80000;
+   }
+   :first-child{
+
+   }
+
+   :last-child{
+     position:absolute;
+     width: 100%;
+     margin-left: 2%;
+     color: #eeeeee;
+     border-bottom:2px solid #eeeeee;
+   }
+}
+.ct-tipitem::after{
+   clear:both;
+   content: "";
 }

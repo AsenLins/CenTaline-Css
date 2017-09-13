@@ -5,10 +5,12 @@
 .ct-container {
   margin-top: 80px;
   clear: both;
+  /*background-color: @ct-bgColor;*/
 }
 .ct-content {
   padding: 0.8em;
   background-color: white;
+  margin-top: 8px;
 }
 .ct-content p {
   text-indent: 1em;
