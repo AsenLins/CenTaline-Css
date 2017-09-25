@@ -40,13 +40,15 @@
   max-height: 20px;
 }
 .ct-topbar .topbar-right {
-  position: absolute;
   top: 0px;
   z-index: 999;
   line-height: 80px;
   vertical-align: middle;
   right: 5px;
   text-align: right;
+  position: absolute;
+  display: block;
+  z-index: 903;
 }
 .ct-topbar .topbar-right img {
   max-height: 20px;

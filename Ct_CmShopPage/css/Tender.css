@@ -1,3 +1,93 @@
+/*topbar容器的基础高度*/
+/*footer容器的高度*/
+/*菜单宽度*/
+/*项高度*/
+.ct-footer .footer-text {
+  height: 8.5%;
+  color: #999999;
+  font-size: 0.7em;
+  width: 97%;
+  letter-spacing: 0em;
+  text-align: left;
+  display: table-cell;
+  text-indent: 0.8em;
+  display: list-item;
+  text-align: center;
+  padding-right: 3%;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+.ct-footer-bootom {
+  margin-top: 30%;
+}
+.ct-footer-bootom .footer-text {
+  height: 8.5%;
+  color: #999999;
+  font-size: 0.7em;
+  width: 97%;
+  letter-spacing: 0em;
+  text-align: left;
+  display: table-cell;
+  text-indent: 0.8em;
+  display: list-item;
+  text-align: center;
+  padding-right: 3%;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+.bottom {
+  position: fixed;
+  bottom: 0px;
+  background-color: white;
+}
+.ct-tipitem {
+  position: relative;
+  font-size: 1.6em;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ct-tipitem lable {
+  width: auto;
+  display: inline-block;
+  color: #b90000;
+  height: 34px;
+  /*margin-top: 10px;*/
+  border-bottom: 2px solid #b80000;
+}
+.ct-tipitem :last-child {
+  position: absolute;
+  width: 100%;
+  margin-left: 2%;
+  color: #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+.ct-tipitem::after {
+  clear: both;
+  content: "";
+}
+.ct-childtipitem {
+  position: relative;
+  font-size: 1.2em;
+  overflow: hidden;
+  width: 100%;
+}
+.ct-childtipitem lable {
+  width: auto;
+  display: inline-block;
+  color: #b90000;
+  height: 26px;
+}
+.ct-childtipitem :last-child {
+  position: absolute;
+  width: 100%;
+  margin-left: 2%;
+  color: #eeeeee;
+}
+.ct-childtipitem::after {
+  clear: both;
+  content: "";
+}
 .ct-newlist {
   /*
   :first-child{

@@ -1,18 +1,61 @@
 @import "../baseVar.less";
 @ct-tb-height:@ct-topbarHeight;
 @ct-bgColor:@ct-base-BgColor;
+@ct-planePadding:@ct-plane-padding;
 .ct-container{
   margin-top: @ct-tb-height;
   clear: both;
   /*background-color: @ct-bgColor;*/
+
+  .middle-padding{
+    padding: 6%;
+  }
+
+  h2{
+    color:#b90000;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .red{
+    color: #b90101;
+  }
+
+  .nopadding{
+    padding: 0;
+  }
+
+  .nobottom{
+    margin-bottom:0px;
+  }
+
+  .noborder{
+    border:0px;
+  }
+
+  .line{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 3px;
+    background-color: #eab8b7;
+    margin-left:-@ct-planePadding;
+    margin-right:-@ct-planePadding;
+    margin-bottom: 0.9em;
+  }
+
 }
 
 .ct-content{
-  padding: 0.8em;
+  padding: @ct-planePadding;
   background-color:@ct-bgColor;
   p{
     text-indent: 1em;
     color: #8b8b8b;
   }
   margin-top:8px;
+}
+
+.ct-page{
+  text-align: center;
 }

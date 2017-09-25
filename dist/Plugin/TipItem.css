@@ -24,3 +24,25 @@
   clear: both;
   content: "";
 }
+.ct-childtipitem {
+  position: relative;
+  font-size: 1.2em;
+  overflow: hidden;
+  width: 100%;
+}
+.ct-childtipitem lable {
+  width: auto;
+  display: inline-block;
+  color: #b90000;
+  height: 26px;
+}
+.ct-childtipitem :last-child {
+  position: absolute;
+  width: 100%;
+  margin-left: 2%;
+  color: #eeeeee;
+}
+.ct-childtipitem::after {
+  clear: both;
+  content: "";
+}

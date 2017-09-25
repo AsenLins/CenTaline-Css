@@ -5,9 +5,11 @@
 .ct-mask {
   position: fixed;
   top: 0px;
+  left: 0px;
   z-index: 902;
   background-color: black;
   opacity: 0.6;
   width: 100%;
   height: 100%;
+  display: none;
 }

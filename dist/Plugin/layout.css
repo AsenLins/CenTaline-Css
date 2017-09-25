@@ -1,0 +1,39 @@
+.ct-label-plane {
+  padding: 1em;
+}
+.ct-label-plane label {
+  color: black;
+  width: auto;
+  height: 16px;
+  line-height: 16px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  color: gray;
+  border: 1px solid #eeeeee;
+  margin-left: 0.5em;
+}
+.ct-label-plane .yellow {
+  background-color: #fef2dc;
+  color: #feba31;
+  border: 1px solid #ffbb32;
+}
+.ct-label-plane .red {
+  background-color: #fee2e1;
+  border: 1px solid #ff9fa0;
+  color: #ff7777;
+}
+.ct-label-plane .orange {
+  background-color: #fdddc6;
+  color: #ec6102;
+  border: 1px solid #f1904c;
+}
+.ct-label-plane::after {
+  content: "";
+  display: block;
+  clear: both;
+}
